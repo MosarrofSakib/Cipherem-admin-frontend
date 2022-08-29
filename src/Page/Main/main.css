@@ -1,0 +1,13 @@
+.main-page{
+    display: flex;
+}
+
+.main-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .container{
+    margin: 1.5rem 4rem;
+} */

@@ -1,0 +1,11 @@
+.dashboard-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.dashboard-main > a {
+    color: black;
+}

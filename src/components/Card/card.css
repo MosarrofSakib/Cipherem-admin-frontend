@@ -1,0 +1,30 @@
+.card-main{
+    height: 18rem;
+    width: 20rem;
+    background-color: #ADD8E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    box-shadow: 5px 5px 8px 5px gray;
+    transition: all 0.5s ease-out;
+}
+
+.card-icon{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.card-main:hover{
+    background-color: transparent;
+    border: 2px solid #ADD8E6;
+    box-shadow: 5px 5px 8px 5px #ADD8E6;
+}
